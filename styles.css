@@ -1,0 +1,248 @@
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.outer {
+    height: 80px;
+    width: 1312px;
+    background-color: rgb(247, 244, 244);
+    border: 1px solid rgba(0, 0, 0, 0.393);
+    border-radius: 5px;
+    margin-top: 20px;
+    justify-self: center;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.first {
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    height: 51px;
+    width: 107px;
+    background-image: url("https://www.ultraedit.com/wp-content/uploads/2023/01/UE_Site-Logo.png");
+    background-size: contain;
+    margin-left: 10px;
+}
+
+.second {
+    display: flex;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+li {
+    list-style: none;
+    padding-left: 50px;
+    font-weight: 600;
+    color: #000000ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 150px;
+
+}
+
+.t1 {
+    height: 38px;
+    width: 114px;
+    background-color: #FFD741;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.t2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+svg {
+    cursor: pointer;
+}
+
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h1 {
+    margin-bottom: 30px;
+    font-size: xx-large
+}
+
+.main h3 {
+    margin: 0;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.m2{
+    background-color: #FFD741;
+    border: 0.5px solid rgba(0, 0, 0, 0.111);
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.winlogo, .ylogo{
+    position: relative;
+    top: 10px;
+}
+
+.m3{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.m32{
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 12.8px;
+   
+}
+
+.m33{
+    margin-left: 10px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.mm{
+    display: flex;
+    color: #000000b1;
+    align-items: flex-end;
+}
+.gridbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,425px);
+    grid-template-rows: repeat(3,193px);
+    gap: 20px;
+}
+
+.grid > div {
+    background-color: rgb(247, 244, 244);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.b11{
+    align-self: center;
+    color: #000000d1;
+    margin-bottom: 5px;
+}
+
+.b12{
+    align-self: center;
+    color: #000000;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.b13{
+    background-color: #FFD741;
+    height: 37px;
+    width: 160px;
+    align-self: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000d2;
+    margin-top: 18px;
+}
+
+.b14{
+    margin: 0px;
+    align-self: center;
+    font-size: 15px;
+    margin-top: 5px;
+    color: #000000ba;
+    font-weight: 520;
+}
+
+.b15{
+    color: #000000ba;
+    margin: 0px;
+    align-self: center;
+    font-size: 15px;
+    font-size: 10px;
+    font-weight: 510;
+}
+
+a{
+    text-decoration-line: none;
+    color: #000000ba;
+}
+
+.t1:hover, .b13:hover, .m2:hover{
+    background-color: yellow;
+}
+
+.f1{
+    color: #2E2E2E;
+    background-color: #f2f0ec;
+    height: 25vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.f11, .f12{
+    width: 350px;
+    height: 200px;
+}
+
+.f11 p, .f12 p{
+    font-weight: 520;
+}
+
+.highlight{
+    margin: 0px;
+    color: #977800;
+}
